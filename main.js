@@ -3,7 +3,7 @@ const screen2 = document.querySelector(".screen2")
 const imgCookie = document.querySelector("#cookie")
 const btnReset = document.querySelector("#btnReset")
 const cookieBg = document.querySelector("body")
-let cookiePhrase = document.querySelector("#phrases")
+const cookiePhrase = document.querySelector("#phrases")
 const phrases = [
   "A vida trará coisas boas se tiver paciência.",
   "Quem quer colher rosas tem de estar preparado para suportar os espinhos.",
