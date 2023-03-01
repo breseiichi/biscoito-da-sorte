@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥠 Biscoito da sorte</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Dancing+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="screen1">
+      <h2> Qual é a sua sorte de hoje?</h1>
+      <p>Abra o biscoito e descubra!</p>
+      <a href="">
+        <img id="cookie" src="./images/cookie.png" alt="Imagem de um biscoito da sorte">
+      </a>
+    </div>
+
+      <div class="screen2 hide">
+      <h2> Aqui está a sua sorte de hoje: </h2>
+      <p id="phrases"></p>
+
+      <img onclick="handleClick(event)" src="./images/opened-cookie.png" alt="Imagem de um biscoito da sorte aberto">
+
+      <button id="btnReset">
+        Abrir outro biscoito
+      </button>
+    
+    </div>
+
+  </main>
+
+<script src="./main.js">
+
+</script>
+
+</body>
+</html>
